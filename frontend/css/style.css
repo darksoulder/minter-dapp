@@ -25,13 +25,14 @@
 
 body {
   /* background-color: var(--bg-color); */
+  background-image:url("/frontend/images/background/LEMATWORKS.gif");
+  background-repeat:repeat;
   display: flex;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  background-image:url("/frontend/images/background/LEMATWORKS.gif");
-  background-repeat:repeat;
+
 }
 
 .container {
