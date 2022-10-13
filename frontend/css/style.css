@@ -30,7 +30,8 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  background-image:url('images/background/LEMAT WORKS.gif'); background-repeat:repeat;
+  background-image:url("/frontend/images/background/LEMATWORKS.gif");
+  background-repeat:repeat;
 }
 
 .container {
