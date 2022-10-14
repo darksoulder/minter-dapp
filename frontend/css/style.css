@@ -10,7 +10,7 @@
   --font-code: "Roboto";
   --bg-color: #010101;
   --bg-color-transparent: #010101;
-  --font-color: #eecf09;
+  --font-color: #010101;
   --btn-bg-color: #ffffff;
   --accent-color: #010101;
   /*--header-shadow: var(--accent-color) 0px 0px 5px;*/
@@ -86,7 +86,7 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  /*text-shadow: 2px 2px 0 var(--accent-color);*/
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
