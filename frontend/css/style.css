@@ -5,7 +5,7 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Tangerine", sans-serif;
+  --font-primary: "Tangerine";
   --font-secondary: "Tangerine", serif;
   --font-code: "Tangerine", monospace;
   --bg-color: #010101;
