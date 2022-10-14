@@ -2,7 +2,7 @@ const contractAddress = "YOUR CONTRACT ADDRESS"; // Replace with your own contra
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Kawaii Anime Girls Club";
-/*const welcome_h2 = "Connect to MetaMask to Get Started";*/
+const welcome_h2 = " ";
 const welcome_p = 'Connect to MetaMask to Get Started';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
