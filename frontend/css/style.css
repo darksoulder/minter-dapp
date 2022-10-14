@@ -15,7 +15,6 @@
   /*--accent-color: #ff0000;*/
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
-  --background-image:url("/frontend/images/background/LEMATWORKS.gif");
 }
 
 * {
@@ -26,7 +25,7 @@
 
 body {
 
-  background-image:url("/frontend/images/slider/0.png");
+  background-image:url("frontend/images/slider/0.png");
   /*background-color: var(--bg-color);*/
   background-size: cover;
   background-position: center;
