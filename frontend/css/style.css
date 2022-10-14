@@ -63,6 +63,7 @@ header .container {
   /*flex-direction: row;*/
   justify-content: space-between;
   align-items: end;
+  font-size-adjust:initial
 }
 
 .menu {
