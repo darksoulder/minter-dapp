@@ -87,15 +87,16 @@ header .container {
 }
 
 .not-connected h1 {
-  /*text-shadow: 2px 2px 0 var(--accent-color);*/
+  text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
 
 .not-connected p {
+  text-shadow: 2px 2px 0 var(--accent-color);
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   font-family: var(--font-secondary);
   line-height: 1;
   
