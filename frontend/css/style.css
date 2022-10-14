@@ -25,7 +25,7 @@
 
 body {
 
-  background-image:url("frontend/images/slider/0.png");
+  background-image:url("/Users/yannick/Downloads/minter-dapp-1/frontend/images/slider/0.png");
   /*background-color: var(--bg-color);*/
   background-size: cover;
   background-position: center;
