@@ -2,7 +2,7 @@ const contractAddress = "YOUR CONTRACT ADDRESS"; // Replace with your own contra
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Kawaii Anime Girls Club";
-const welcome_h2 = " ";
+const welcome_h2 = "test";
 const welcome_p = 'The Kawaii Anime Girls Club is a private web3 place on the blockchain where you can meet your Kawaii Anime Girl. Each of them have her own background story, character and look. They are all AI backed and are learning from the owner, so that they will be more unique with every interaction.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
