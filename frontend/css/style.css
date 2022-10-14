@@ -43,8 +43,9 @@ body {
   flex-direction: column;
   max-width: 2000px;
   margin: 0 auto;
-  padding-left: 4rem;
+  padding-left: 10rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   justify-content: center;
   overflow: hidden;
 }
@@ -94,7 +95,7 @@ header .container {
 .not-connected p {
   font-size: 2.1rem;
   font-family: var(--font-secondary);
-  line-height: 1.8;
+  line-height: 0.5;
 }
 
 .not-connected a {
