@@ -74,7 +74,7 @@ header .container {
 .not-connected {
   align-items: center;
   height: 100%;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
