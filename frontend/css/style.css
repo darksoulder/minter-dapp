@@ -6,8 +6,8 @@
 
 :root {
   --font-primary: "Tangerine";
-  --font-secondary: "Tangerine", serif;
-  --font-code: "Tangerine", monospace;
+  --font-secondary: "Tangerine";
+  --font-code: "Tangerine";
   --bg-color: #010101;
   --bg-color-transparent: #010101;
   --font-color: #ffffff;
