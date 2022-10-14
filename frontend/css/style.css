@@ -10,7 +10,8 @@
   --font-code: "Tangerine";
   --bg-color: #010101;
   --bg-color-transparent: #010101;
-  --font-color: #010101;
+  --font-color: #ffffff;
+  --font-color-secondary: #8907f3;
   --btn-bg-color: #ffffff;
   --accent-color: #010101;
   /*--header-shadow: var(--accent-color) 0px 0px 5px;*/
@@ -113,7 +114,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: var(--font-color-secondary);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
