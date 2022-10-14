@@ -79,6 +79,7 @@ header .container {
 }
 
 .show-not-connected {
+  text-shadow: 2px 2px 0 var(--accent-color);
   opacity: 1;
   transform: translateY(0);
 }
@@ -91,6 +92,7 @@ header .container {
 }
 
 .not-connected p {
+  text-shadow: 2px 2px 0 var(--accent-color);
   font-size: 2.1rem;
   font-family: var(--font-secondary);
   line-height: 1.8;
@@ -113,7 +115,7 @@ header .container {
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
