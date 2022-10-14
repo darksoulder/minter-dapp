@@ -15,7 +15,7 @@
   /*--accent-color: #ff0000;*/
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
-  --background-image:url("/frontend/images/background/LEMATWORKS.gif");
+  /*--background-image:url("/frontend/images/background/LEMATWORKS.gif");*/
 }
 
 * {
@@ -26,11 +26,11 @@
 
 body {
 
-  background-image:url("/frontend/images/background/LEMATWORKS.gif");
+  /*background-image:url("/frontend/images/background/LEMATWORKS.gif");*/
   background-color: var(--bg-color);
-  background-size: cover;
+  /*background-size: cover;
   background-position: center;
-  background-repeat:repeat;
+  background-repeat:repeat;*/
   display: flex;
   flex-flow: column;
   height: 100vh;
