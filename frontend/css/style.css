@@ -15,7 +15,7 @@
   /*--accent-color: #ff0000;*/
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
-  /*--background-image:url("/frontend/images/background/LEMATWORKS.gif");*/
+  --background-image:url("/frontend/images/background/LEMATWORKS.gif");
 }
 
 * {
@@ -26,11 +26,11 @@
 
 body {
 
-  /*background-image:url("/frontend/images/background/LEMATWORKS.gif");*/
+  background-image:url("/frontend/images/background/LEMATWORKS.gif");
   background-color: var(--bg-color);
-  /*background-size: cover;
+  background-size: cover;
   background-position: center;
-  background-repeat:repeat;*/
+  background-repeat:repeat;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -86,6 +86,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
+  font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -320,7 +321,7 @@ section {
   margin: 1rem 0;
 }
 
-/* SLIDDER
+/* SLIDDER */
 
 .splide {
   position: absolute;
