@@ -64,7 +64,6 @@ header .container {
   /*flex-direction: row;*/
   justify-content: space-between;
   align-items: end;
-  font-size-adjust:inherit
 }
 
 .menu {
@@ -136,6 +135,7 @@ header .container {
   position: relative;
   text-decoration: none;
   outline: none;
+  font-size-adjust: inherit;
 }
 .btn:hover {
   box-shadow: none;
