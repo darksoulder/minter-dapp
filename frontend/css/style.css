@@ -96,6 +96,7 @@ header .container {
   font-size: 2.1rem;
   font-family: var(--font-secondary);
   line-height: 1;
+  font-style: bold;
 }
 
 .not-connected a {
