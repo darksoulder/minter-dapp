@@ -72,7 +72,7 @@ header .container {
   align-items: right;
   height: 100%;
   text-align: right;
-  margin: 3 auto 0 35vw;
+  margin: -2 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
