@@ -27,7 +27,7 @@
 body {
 
   /*background-image:url("/frontend/images/background/LEMATWORKS.gif");*/
-  background-color: var(--bg-color-transparent);
+  background-color: var(--bg-color);
   /*background-size: cover;
   background-position: center;
   background-repeat:repeat;*/
@@ -86,7 +86,6 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
