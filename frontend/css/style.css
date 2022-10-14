@@ -72,14 +72,13 @@ header .container {
   align-items: right;
   height: 100%;
   text-align: right;
-  margin: -0.5 auto 0 35vw;
+  margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
 }
 
 .show-not-connected {
-  text-shadow: 2px 2px 0 var(--accent-color);
   opacity: 1;
   transform: translateY(0);
 }
@@ -92,7 +91,6 @@ header .container {
 }
 
 .not-connected p {
-  text-shadow: 2px 2px 0 var(--accent-color);
   font-size: 2.1rem;
   font-family: var(--font-secondary);
   line-height: 1.8;
