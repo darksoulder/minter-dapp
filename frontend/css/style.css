@@ -42,7 +42,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
   padding-left: 10rem;
   padding-top: 2rem;
