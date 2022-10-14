@@ -5,12 +5,12 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Tangerine";
-  --font-secondary: "Tangerine";
-  --font-code: "Tangerine";
+  --font-primary: "Roboto";
+  --font-secondary: "Roboto";
+  --font-code: "Roboto";
   --bg-color: #010101;
   --bg-color-transparent: #010101;
-  --font-color: #ffffff;
+  --font-color: #eecf09;
   --btn-bg-color: #ffffff;
   --accent-color: #010101;
   /*--header-shadow: var(--accent-color) 0px 0px 5px;*/
