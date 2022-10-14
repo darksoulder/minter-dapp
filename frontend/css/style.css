@@ -13,7 +13,7 @@
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #010101;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  /*--header-shadow: var(--accent-color) 0px 0px 5px;*/
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
@@ -46,7 +46,6 @@ body {
   padding-left: 10rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  justify-content: center;
   overflow: hidden;
 }
 
