@@ -27,7 +27,7 @@
 body {
 
   background-image:url("/frontend/images/background/LEMATWORKS.gif");
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   background-size: cover;
   background-position: center;
   background-repeat:repeat;
