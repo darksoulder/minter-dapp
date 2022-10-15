@@ -109,6 +109,7 @@ header .container {
   font-size: 1.6rem;
   font-family: var(--font-secondary);
   line-height: 1.4;
+  z-index: 6;
   
 }
 
