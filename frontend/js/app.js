@@ -44,7 +44,6 @@ let accounts;
       updateConnectStatus();
     });
   }
-});
 
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
