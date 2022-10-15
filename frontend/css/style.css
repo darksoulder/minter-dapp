@@ -82,6 +82,7 @@ header .container {
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   overflow: auto;
+  padding-bottom: 32rem;
 }
 
 ::-webkit-scrollbar {
@@ -354,7 +355,7 @@ section {
 
 /* SPINNER */
 .dot-spin {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
