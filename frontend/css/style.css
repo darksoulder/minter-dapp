@@ -110,6 +110,7 @@ header .container {
   font-family: var(--font-secondary);
   line-height: 1.4;
   z-index: 6;
+  position: absolute;
   
 }
 
