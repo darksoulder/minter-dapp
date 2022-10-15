@@ -101,14 +101,14 @@ header .container {
   font-size: 2.9rem;
 }
 
-.not-connected p {
+/*.not-connected p {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-weight: bold;
   font-size: 1.6rem;
   font-family: var(--font-secondary);
   line-height: 1.2;
   
-}
+} */
 
 .not-connected a {
   text-decoration: none;
