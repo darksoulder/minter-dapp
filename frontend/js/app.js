@@ -83,7 +83,7 @@ const updateConnectStatus = async () => {
       await window.ethereum
         .request({
           method: "eth_requestAccounts",
-        })*/
+        })
         .then(function (accts) {
           onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
@@ -99,7 +99,7 @@ const updateConnectStatus = async () => {
     };
   }
 };
-
+*/
 async function checkChain() {
   let chainId = 0;
   if(chain === 'goerli') {
