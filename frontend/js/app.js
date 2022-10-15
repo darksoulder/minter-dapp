@@ -89,7 +89,7 @@ const updateConnectStatus = async () => {
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           // SHOW SPINNER
-          spinner.classList.remove('hidden');
+          /*spinner.classList.remove('hidden');*/
           onboardButton.disabled = true;
           window.address = accts[0];
           accounts = accts;
