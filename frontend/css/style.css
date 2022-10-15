@@ -83,7 +83,6 @@ header .container {
   transition: all 0.5s ease-in-out;
   overflow: auto;
   padding-bottom: 32rem;
-  padding-top: 10rem;
 }
 
 ::-webkit-scrollbar {
