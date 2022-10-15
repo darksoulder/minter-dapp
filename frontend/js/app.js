@@ -67,8 +67,8 @@ const updateConnectStatus = async () => {
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
-    notConnected.classList.remove('show-not-connected');
-    notConnected.classList.add('hidden');
+    /*notConnected.classList.remove('show-not-connected');
+    notConnected.classList.add('hidden');*/
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
