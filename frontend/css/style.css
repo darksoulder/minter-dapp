@@ -51,6 +51,7 @@ body {
   padding-bottom: 1rem;
   padding-right: 0.5rem;
   overflow: hidden;
+  z-index: 3;
 }
 
 /* HEADER */
@@ -64,6 +65,7 @@ header .container {
   /*flex-direction: row;*/
   justify-content: space-between;
   align-items: end;
+  z-index: 5;
 }
 
 .menu {
@@ -82,6 +84,7 @@ header .container {
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   overflow: auto;
+  z-index: 4
 }
 
 ::-webkit-scrollbar {
