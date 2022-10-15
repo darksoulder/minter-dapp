@@ -51,6 +51,7 @@ body {
   padding-bottom: 1rem;
   padding-right: 0.5rem;
   overflow: hidden;
+  z-index: -4;
 }
 
 /* HEADER */
@@ -84,6 +85,7 @@ header .container {
   overflow: auto;
   position: absolute;
   padding-top: 9rem;
+  z-index: -3;
 }
 
 ::-webkit-scrollbar {
