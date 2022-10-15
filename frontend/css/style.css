@@ -78,7 +78,7 @@ header .container {
   height: 100%;
   text-align: left;
   margin: 0 auto 0 35vw;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   overflow: auto;
@@ -354,7 +354,7 @@ section {
 
 /* SPINNER */
 .dot-spin {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
