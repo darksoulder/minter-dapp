@@ -76,14 +76,14 @@ const updateConnectStatus = async () => {
   } else {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
-    spinner.classList.add('hidden');
+    /*spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
     onboardButton.onclick = async () => {
       await window.ethereum
         .request({
           method: "eth_requestAccounts",
-        })
+        })*/
         .then(function (accts) {
           onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
