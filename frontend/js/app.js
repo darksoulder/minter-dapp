@@ -50,7 +50,7 @@ const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
   const notConnected = document.querySelector('.not-connected');
-  const spinner = document.getElementById("spinner");
+  /*const spinner = document.getElementById("spinner");*/
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
     onboardButton.onclick = () => {
@@ -70,9 +70,9 @@ const updateConnectStatus = async () => {
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     // SHOW SPINNER
-    /*spinner.classList.remove('hidden');
+    spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
-    loadInfo();*/
+    loadInfo();
   } else {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
