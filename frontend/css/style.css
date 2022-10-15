@@ -82,7 +82,6 @@ header .container {
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   overflow: auto;
-  padding-bottom: 10rem;
 }
 
 ::-webkit-scrollbar {
