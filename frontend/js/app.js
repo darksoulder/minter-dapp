@@ -10,7 +10,7 @@ let accounts;
   welcomeH2.innerText = welcome_h2;*/
   /*welcomeP.innerHTML = welcome_p;*/
 
-  if (window.ethereum) {
+ /* if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
     checkChain();
   } else if (window.web3) {
@@ -22,7 +22,7 @@ let accounts;
     await window.web3.eth.getAccounts().then(async (addr) => {
       accounts = addr;
     });
-  }
+  }*/
 
   /*const splide = new Splide(".splide", {
     type: "loop",
