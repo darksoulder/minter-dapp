@@ -1,7 +1,4 @@
 const abi = [
-  {
-    "response": "OK",
-    "abi": [
       {
         "inputs": [],
         "stateMutability": "nonpayable",
@@ -1370,5 +1367,3 @@ const abi = [
         "type": "function"
       }
     ]
-  }
-] 
