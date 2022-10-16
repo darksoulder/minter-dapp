@@ -160,7 +160,8 @@ header .container {
 
 .card {
   position: relative;
-  background-color: #b656bd;
+  /*background-color: #d929e6;*/
+  background-color: rgba(232, 87, 227, 0.5);
   border-radius: 35px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -171,7 +172,7 @@ header .container {
 }
 
 .show-card {
-  opacity: 0.5;
+  opacity: 1;
   transform: translateX(0);
 }
 
