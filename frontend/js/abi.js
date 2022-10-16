@@ -1367,5 +1367,4 @@ const abi = [
           "type": "function"
         }
       ]
-
     
