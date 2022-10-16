@@ -28,7 +28,7 @@
 
 body {
 
-  background-image:url("/images/background/back2.gif"), url("/images/background/back1.gif") ;
+  background-image:url("/images/background/back2.gif"), url("/images/background/back1.gif");
   /*background-color: var(--bg-color);*/
   background-size: cover;
   background-position: center;
