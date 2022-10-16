@@ -247,7 +247,7 @@ section {
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 1px 2px 0 var(--accent-color);
 }
 
 /* MINT CONTAINER */
