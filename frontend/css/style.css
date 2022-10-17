@@ -63,7 +63,7 @@ header {
 header .container {
   /*flex-direction: row;*/
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
 .menu {
