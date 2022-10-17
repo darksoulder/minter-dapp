@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "KATEST2";
+const namePrefix = "KATEST3";
 const description = "description changeeeeyyy";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -42,8 +42,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'KATEST2';
-const CONTRACT_SYMBOL = 'KAT2';
+const CONTRACT_NAME = 'KATEST3';
+const CONTRACT_SYMBOL = 'KAT3';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
 const TREASURY_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
@@ -52,7 +52,7 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Goerli = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-17T00:15:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-17T23:15:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
