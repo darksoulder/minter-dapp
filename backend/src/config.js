@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "KATEST1";
-const description = "description changeeeey";
+const namePrefix = "KATEST2";
+const description = "description changeeeeyyy";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -31,7 +31,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://test.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://silly-chebakia-77001b.netlify.app", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -42,8 +42,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'KATEST';
-const CONTRACT_SYMBOL = 'KAT';
+const CONTRACT_NAME = 'KATEST2';
+const CONTRACT_SYMBOL = 'KAT2';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
 const TREASURY_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
@@ -55,10 +55,10 @@ const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single
 const PUBLIC_MINT_START_DATE = "2022-10-18T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-10-16T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x446aF58CCE226D21Bc9e156C60D98E3BB676D113"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeibaum6zlwbn3r6yhfdymf33lehf3onz4pjpnqf3chbyfhj7ne4dhu/"; // only update if you want to manually set the base uri
+const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
@@ -66,10 +66,10 @@ const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "KATRSREtest"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "which will you gettest"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeifp3qlfediqr4jxlh7vh6uae4fcogd5dgkgrxo32us3xr7bqgrvau"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = null; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
