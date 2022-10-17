@@ -46,7 +46,7 @@ body {
   flex-direction: column;
   max-width: 1024px;
   margin: 0 auto;
-  padding-left: 0rem;
+  padding-left: 16rem;
   padding-top: 0.5rem;
   padding-bottom: 0rem;
   padding-right: 0.5rem;
@@ -164,8 +164,7 @@ header .container {
   /*background-color: #d929e6;*/
   background-color: rgba(232, 87, 227, 0.5);
   border-radius: 35px;
-  padding-top: 10rem;
-  padding-left: 5rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
