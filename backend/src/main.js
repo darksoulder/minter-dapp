@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     ...extraMetadata,
     date: dateTime,
-    compiler: "test123",
+    compiler: "Kawaii Compiler",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
