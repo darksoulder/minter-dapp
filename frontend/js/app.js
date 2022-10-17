@@ -206,7 +206,7 @@ async function loadInfo() {
     mainHeading.innerText = h1_presale_coming_soon;
     subHeading.innerText = h2_presale_coming_soon;
     mainText.innerText = p_presale_coming_soon;
-    /*actionButton.innerText = button_presale_coming_soon;*/
+    actionButton.innerText = button_presale_coming_soon;
   }
 
   const clockdiv = document.getElementById("countdown");
