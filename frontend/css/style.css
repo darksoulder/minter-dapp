@@ -222,7 +222,7 @@ section {
 
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
-  font-family: #8907f3
+  font-family: #8907f3;
   font-size: 1.1rem;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
