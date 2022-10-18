@@ -46,7 +46,7 @@ body {
   flex-direction: column;
   max-width: 1024px;
   margin: 0 auto;
-  padding-left: 33rem;
+  /*padding-left: 33rem;*/
   padding-top: 1.5rem;
   padding-bottom: 0rem;
   padding-right: 0.5rem;
@@ -81,6 +81,7 @@ header .container {
   /*transform: translateY(10vh);*/
   transition: all 0.5s ease-in-out;
   padding-bottom: 36rem;
+  padding-left: 33rem;
 }
 
 ::-webkit-scrollbar {
