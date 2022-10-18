@@ -219,6 +219,7 @@ section {
   line-height: 1;
   border-radius: 32px;
 }
+
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: #8907f3
