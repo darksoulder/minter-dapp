@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "KATEST3";
-const description = "description changeeeeyyy";
+const namePrefix = "KATEST4";
+const description = "where is the description?";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -42,8 +42,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'KATEST3';
-const CONTRACT_SYMBOL = 'KAT3';
+const CONTRACT_NAME = 'KATEST4';
+const CONTRACT_SYMBOL = 'KAT4';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
 const TREASURY_ADDRESS = '0x446aF58CCE226D21Bc9e156C60D98E3BB676D113';
@@ -52,7 +52,7 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Goerli = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-17T23:15:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-18T20:15:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -66,10 +66,10 @@ const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "KATRSREtest"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "which will you gettest"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = null; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC_TITLE = "KATSRTEST2"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_DESCRIPTION = "which will you gettest2"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeidnt6s7d7pgeployta66s23kbxh3agkujs7sds5r2grpugku3xoxy"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
