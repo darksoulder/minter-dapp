@@ -381,4 +381,7 @@ async function mint() {
       // console.log(e);
     }
   }
+  function playAudio(url) {
+    new Audio(url).play();
+  }
 }
