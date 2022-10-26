@@ -31,7 +31,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://silly-chebakia-77001b.netlify.app", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://kawaiianimegirlsclub.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -86,12 +86,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "KATTER",
+  symbol: "",
   seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "",
       share: 100,
     },
   ],
@@ -136,7 +136,7 @@ const preview = {
   thumbPerRow: 5,
   thumbWidth: 50,
   imageRatio: format.height / format.width,
-  imageName: "preview.png",
+  imageName: "",
 };
 
 const preview_gif = {
@@ -145,7 +145,7 @@ const preview_gif = {
   repeat: 0,
   quality: 100,
   delay: 500,
-  imageName: "preview.gif",
+  imageName: "",
 };
 
 module.exports = {
