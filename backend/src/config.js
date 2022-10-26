@@ -15,7 +15,7 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "test1" },
+      { name: "Unique Kawaii Anime Girl" },
     ],
   },
 ];
