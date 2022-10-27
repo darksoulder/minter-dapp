@@ -1,4 +1,4 @@
-const contractAddress = "0x1479b3EfC48a0bD0804dd77434cAba45e9008f6e"; // Replace with your own contract address
+const contractAddress = ""; // Replace with your own contract address
 const chain = 'polygon'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Kawaii Anime Girls Club";
